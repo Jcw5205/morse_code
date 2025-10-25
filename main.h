@@ -12,4 +12,6 @@ typedef struct Node{
 
 char* character_to_morse_code();
 
+void create_tree();
+
 extern tree_node_t MORSE_TREE[40];
