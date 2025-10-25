@@ -5,7 +5,10 @@ void create_tree(){
     ptr->dash = create_node();
     ptr->dash->dash = create_node();
     ptr->dash->dot = create_node();
+    ptr->dash->dash->dash = create_node();
     ptr->dash->dash->dot = create_node();
+    ptr->dash->dash->dot->dash = create_node();
+    ptr->dash->dash->dot->dot = create_node();
     ptr->dot = create_node();
     ptr->dot = create_node();
 }
